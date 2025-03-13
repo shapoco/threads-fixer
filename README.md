@@ -1,6 +1,6 @@
 # Threads Fixer
 
-Threads の「おすすめ」「スレッドを開始しました」「久しぶりの投稿」などを目立たなくする UserScript です。
+PC 版 Threads の「アクティビティ」のページで、「おすすめ」「スレッドを開始しました」「久しぶりの投稿」などを目立たなくする UserScript です。
 
 > [!CAUTION]
 > **このページを Threads、Instagram、Facebook 等でシェアしないことをお勧めします。**
