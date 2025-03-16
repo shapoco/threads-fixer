@@ -4,7 +4,7 @@
 // @updateURL   https://github.com/shapoco/threads-fixer/raw/refs/heads/main/dist/threads-fixer.user.js
 // @downloadURL https://github.com/shapoco/threads-fixer/raw/refs/heads/main/dist/threads-fixer.user.js
 // @match       https://www.threads.net/*
-// @version     1.0.13
+// @version     1.0.14
 // @author      Shapoco
 // @description Threads の「アクティビティ」で「おすすめ」などを目立たなくします
 // @run-at      document-start
@@ -17,7 +17,7 @@
 
   const PROCESS_INTERVAL_MS = 300;
 
-  const RE_RECOMMEND = /^(おすすめ|久しぶりの投稿|スレッドを開始しました)$/;
+  const RE_RECOMMEND = /^(おすすめ|スレッドを開始しました)$/;
 
   class ThreadsFixer {
     constructor() {
